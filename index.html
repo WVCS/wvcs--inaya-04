@@ -12,9 +12,9 @@
     <!-- Nav Bar Start-->
   <ul class="nav">
     <li class="nav"> <a href="#home"> Home </a></li>
-    <li class="nav"> <a href="#h2"> Heading 2 </a></li>
+    <li class="nav"> <a href="#games"> Games </a></li>
+    <li class="nav"> <a href="#p2"> Page 2 </a></li>
     <li class="nav"> <a href="https://www.google.com"> Google </a></li>
-    <li class="nav"> <a href="#circle"> Circle List </a></li>
     <li class="nav"> <a href="#h4"> Head 4 </a></li>
 
   </ul>
@@ -34,23 +34,41 @@ body {
   background-color: pink;
 }
       
-                 ul {
-  list-style-type: none
-    margin: 0;
-    padding: 0;
+      li.nav {
+  float: center;
   background-color: lavender;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  left: 0;
+  display: inline;
+}
+li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
 }
 
-li {
-  
-   padding: 50px 100px;
-  display: block;
-    width: 60px;
-  display: inline;
+li a:hover {
+  background-color: white;
+}
+
+ul.circle {
+  list-style-type: circle;
+  float: center;
+  color: white;
+}
+
+p {
+  color: blue;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  background-color: lavender;
+  top: 0;
 }
   </style>
   
